@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script is only required for Travis workflows.
+# in case of gitlab it is useless
 # go to the output directory and create a new git repo
 cd ./*wiki/output || exit 1 # abort script if folder does not exists
 git init
